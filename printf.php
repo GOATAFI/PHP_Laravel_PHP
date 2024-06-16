@@ -20,3 +20,7 @@ $n = 27.155;
 printf("%08.2f \n",$m);
 printf("%08.2f \n",$n);
 
+// ---------- sprintf ----------
+
+$output = sprintf("His name is %s %s",$fname,$lname);
+echo $output;
