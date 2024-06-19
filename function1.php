@@ -44,3 +44,17 @@ function sum(int $x, int $y,int $z):int {
 }
 
 echo sum(1,2,3);
+
+echo PHP_EOL;
+
+function sum2($x ,$y , ...$numbers):int {
+    //...$numbers diye unlimited paramters receive kora jay , er age kono parameter declare segula k alada vabe handle korte hobe , ... er por ar kono parameter declare kora jabena
+    
+    $result = 0;
+    for($i =0;$i<count($numbers);$i++){
+        $result += $numbers[$i];
+    }
+    return $x + $y + $result;
+}
+
+echo sum2(1,2,3,4,5,6);
