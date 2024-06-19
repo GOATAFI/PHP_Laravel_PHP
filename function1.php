@@ -27,3 +27,11 @@ function factorial( int $n){
 }
 $x = 5;
 echo "Factorial of {$x} is ". factorial($x);
+
+echo PHP_EOL;
+function serve($foodType = "Coffee",$numberOfItems = "1 Cup"){
+    echo "{$numberOfItems} of {$foodType} have been served";
+}
+$i = "salad";
+$n = "3 Plates";
+serve($i,$n);
