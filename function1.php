@@ -35,3 +35,12 @@ function serve($foodType = "Coffee",$numberOfItems = "1 Cup"){
 $i = "salad";
 $n = "3 Plates";
 serve($i,$n);
+
+echo PHP_EOL;
+
+function sum(int $x, int $y,int $z):int {
+    //function declaration seshe () seshe :int bole dilam karon ei function int e return korbe sheta bujhanor jonno
+    return $x +$y +$z;
+}
+
+echo sum(1,2,3);
