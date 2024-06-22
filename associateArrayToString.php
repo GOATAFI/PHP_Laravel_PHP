@@ -24,7 +24,7 @@ echo $jsonData;
 echo PHP_EOL;
 $jsonStudentsObject = json_decode($jsonData);
 print_r($jsonStudentsObject);
-
+//json_decode e variable deyar por true na dile sheta object e convert korbe , true dile array te convert korbe
 echo PHP_EOL;
 $jsonStudentsArray = json_decode($jsonData,true);
 print_r($jsonStudentsArray);
