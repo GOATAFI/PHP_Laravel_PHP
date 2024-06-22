@@ -14,3 +14,21 @@ $newPerson2 = &$person;
 $newPerson2['fname'] = 'Heheboii';
 print_r($person);
 print_r($newPerson2);
+
+
+function printData($p){
+    $p['fname'] = 'Halum';
+    return $p;
+}
+
+$newPerson3 =  printData($person);
+print_r($person);
+print_r($newPerson3);
+
+function printData2(&$p){
+    $p['fname'] = 'Hambaa';
+    return $p;
+}
+$newPerson4 =  printData2($person);
+print_r($person);
+print_r($newPerson4);
