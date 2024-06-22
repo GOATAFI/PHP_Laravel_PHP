@@ -17,3 +17,14 @@ echo $serialized;
 echo PHP_EOL;
 $newStudents = unserialize($serialized);
 print_r($newStudents);
+
+// -------- JSON --------
+$jsonData = json_encode($students);
+echo $jsonData;
+echo PHP_EOL;
+$jsonStudentsObject = json_decode($jsonData);
+print_r($jsonStudentsObject);
+
+echo PHP_EOL;
+$jsonStudentsArray = json_decode($jsonData,true);
+print_r($jsonStudentsArray);
