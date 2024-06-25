@@ -7,7 +7,7 @@ print_r($fruits);
 sort($fruits2); //sort korbe thik e kintu key preserve korbe na
 print_r($fruits2); 
 
-$fruitsAssociate = ['a' =>'apple','b' => 'banana', 'o' => 'orange','m' => 'malta','k' => 'kathal',  'm' => 'mango', 'd' => 'dates'];
+$fruitsAssociate = ['a' =>'apple','b' => 'banana', 'o' => 'orange','p' => 'malta','k' => 'kathal','m' => 'mango', 'd' => 'dates'];
 asort($fruitsAssociate); //associative array k sort korte chaile normal sort() er jaygay asort() use korte hobe , asort() key k preserve kore
 print_r($fruitsAssociate);
 
@@ -29,3 +29,8 @@ foreach($numbers as $number){
     echo $number;
     echo PHP_EOL;
 }
+
+$fruitsAssociate2 = ['a' =>'apple','b' => 'banana', 'o' => 'orange','p' => 'palta','k' => 'kathal','m' => 'mango', 'd' => 'dates'];
+
+ksort($fruitsAssociate2);
+print_r($fruitsAssociate2);
