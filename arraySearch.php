@@ -8,3 +8,10 @@ if(in_array($n = 50,$numbers)){
 
 $index = array_search(10,$numbers);
 echo $index;
+echo PHP_EOL;
+
+$fruits = ['a' =>'apple','b' => 'banana', 'o' => 'orange','p' => 'alta','k' => 'kathal','m' => 'mango', 'd' => 'dates'];
+
+if(key_exists("a",$fruits)){
+    echo "key exists";
+}
