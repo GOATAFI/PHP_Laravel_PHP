@@ -30,7 +30,7 @@ foreach($numbers as $number){
     echo PHP_EOL;
 }
 
-$fruitsAssociate2 = ['a' =>'apple','b' => 'banana', 'o' => 'orange','p' => 'palta','k' => 'kathal','m' => 'mango', 'd' => 'dates'];
+$fruitsAssociate2 = ['a' =>'apple','b' => 'banana', 'o' => 'orange','p' => 'alta','k' => 'kathal','m' => 'mango', 'd' => 'dates'];
 
-ksort($fruitsAssociate2);
+ksort($fruitsAssociate2); //ksort() used as key sorting
 print_r($fruitsAssociate2);
