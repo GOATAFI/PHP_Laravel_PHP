@@ -34,3 +34,6 @@ $fruitsAssociate2 = ['a' =>'apple','b' => 'banana', 'o' => 'orange','p' => 'alta
 
 ksort($fruitsAssociate2); //ksort() used as key sorting
 print_r($fruitsAssociate2);
+
+
+//reverse er jonno arsort , krsort use kora hoy
