@@ -16,3 +16,10 @@ asort($numbers);
 print_r($numbers);
 
 //asort() use korsi , key gula preserved thakbe, value gula sort hoye jabe kintu key gula thakbe original array er key gulai
+
+for($i=0;$i<count($numbers);$i++){
+    echo $numbers[$i];
+    echo PHP_EOL;
+}
+
+//asort use korar por jodi for loop use kori tahole original array er key onujayi array er element print hobe , sorted array print hobe nah
