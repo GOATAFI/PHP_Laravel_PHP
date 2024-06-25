@@ -22,4 +22,10 @@ for($i=0;$i<count($numbers);$i++){
     echo PHP_EOL;
 }
 
-//asort use korar por jodi for loop use kori tahole original array er key onujayi array er element print hobe , sorted array print hobe nah
+//asort use korar por jodi for loop use kori tahole original array er key onujayi array er element print hobe , sorted array print hobe nah , so we will use foreach loop
+echo "----------------";
+echo PHP_EOL;
+foreach($numbers as $number){
+    echo $number;
+    echo PHP_EOL;
+}
