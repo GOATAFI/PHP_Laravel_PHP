@@ -15,5 +15,7 @@ print_r($commonFruit);
 $diff = array_diff($number1,$number2);
 print_r($diff);
 
-$difFruit = array_diff_assoc($fruits1,$fruits2);
+$difFruitWithoutAssoc = array_diff($fruits1,$fruits2);
+$difFruit = array_diff_assoc($fruits1,$fruits2); //array_diff_assoc for associative arrays to check the keys also
 print_r($difFruit);
+print_r($difFruitWithoutAssoc);
