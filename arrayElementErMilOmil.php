@@ -11,3 +11,6 @@ $fruits2 = ['a' =>'apple','c' => 'banana', 'o' => 'orange','p' => 'alta','j' => 
 
 $commonFruit = array_intersect_assoc($fruits1,$fruits2);
 print_r($commonFruit);
+
+$diff = array_diff($number1,$number2);
+print_r($diff);
