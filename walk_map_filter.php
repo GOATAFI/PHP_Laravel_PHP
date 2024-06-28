@@ -16,3 +16,20 @@ function cube($n){
 $newArray = array_map('cube',$numbers);
 
 print_r($newArray);
+
+function even($n) {
+    return $n %2 ==0;
+}
+$evenNumbers = array_filter($numbers,'even');
+$evenNumbers2 = array_map('even',$numbers);
+
+print_r($evenNumbers);
+print_r($evenNumbers2);
+
+$names = ['mafi','kalu','sakib','modon'];
+function name($n){
+    return $n[0] == 'm';
+}
+
+$namesStartedWithM = array_filter($names,'name');
+print_r($namesStartedWithM);
