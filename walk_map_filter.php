@@ -6,3 +6,13 @@ function square($n)
 }
 
 array_walk($numbers,'square');
+
+//kintu array_walk() abar return korte pare nah , er jonno lage array_map()
+
+function cube($n){
+    return $n * $n *$n;
+}
+
+$newArray = array_map('cube',$numbers);
+
+print_r($newArray);
