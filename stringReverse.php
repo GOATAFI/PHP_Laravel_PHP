@@ -14,3 +14,14 @@ for($i=1;$i<=$length;$i++){
 echo PHP_EOL;
 
 echo strrev($string);
+
+echo PHP_EOL;
+
+$string = "Hello World";
+$words = explode(" ", $string);
+$reversedWords = array_map(function($word) {
+    return strrev($word);
+}, $words);
+$reversedString = implode(" ", $reversedWords);
+echo $reversedString;
+
